@@ -196,7 +196,7 @@ const docs = {
     },
     doc6: {
         title: "Prórroga de 6 Meses",
-        subtitle: "Solicitud ante Junta Directiva",
+        subtitle: "Entrega tardía de la memoria",
         download: "document/6_prorroga_6_meses.docx",
         example: "example/6_prorroga_6mes.pdf",
         icon: `<i class="fa-regular fa-building text-base"></i>`,
