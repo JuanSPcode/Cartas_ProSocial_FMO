@@ -202,7 +202,6 @@ const docs = {
         icon: `<i class="fa-regular fa-building text-base"></i>`,
         cuando: [
             "Usa esta carta cuando ya <strong class='text-gray-900 font-bold'>pasaron más de 6 meses</strong> desde que finalizaste la ejecución del proyecto y aún no has entregado la memoria.",
-            "Por la gravedad del caso, esta carta se eleva a <strong class='text-gray-900 font-bold'>Junta Directiva</strong>, no solo al Jefe de UPS.",
             "Es el <strong class='text-gray-900 font-bold'>último recurso</strong> antes de enfrentar consecuencias académicas más graves. Actúa cuanto antes."
         ],
         datos: [
