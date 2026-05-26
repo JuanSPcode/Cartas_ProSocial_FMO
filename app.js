@@ -219,7 +219,7 @@ const docs = {
         pasos: [
             "Descarga la plantilla y ábrela en Microsoft Word.",
             "Completa todos tus datos personales y del proyecto con precisión.",
-            "Redacta los motivos de forma detallada y seria — esta carta va a Junta Directiva.",
+            "Redacta los motivos de forma detallada y seria .",
             "Cambia todo el texto rojo a negro antes de imprimir.",
             "Lleva la carta a tu tutor para revisión y firma.",
             "Obtén firma y sello del/la coordinador/a de tu sub-unidad.",
@@ -227,8 +227,119 @@ const docs = {
         ],
         advertencias: [
             "Esta es la carta más <strong class='text-red-500 font-semibold'>grave y urgente</strong>. Si llegas a este punto, actúa de inmediato.",
-            "Los motivos deben estar <strong class='text-red-500 font-semibold'>muy bien redactados y justificados</strong>. La Junta Directiva evaluará tu caso con mayor rigurosidad.",
             "Esta carta <strong class='text-red-500 font-semibold'>no garantiza aprobación automática</strong>. La decisión final la toma la Junta Directiva."
+        ]
+    },
+    proc1: {
+        title: "Guía de Inscripción",
+        subtitle: "Paso 1: Inicio del servicio social",
+        download: "procesos/1. DOCUMENTOS PARA LA INSCRIPCION DE PROYECTOS.docx",
+        example: "procesos/1..pdf",
+        icon: `<i class="fa-solid fa-file-signature text-base"></i>`,
+        cuando: [
+            "Usa esta guía al <strong class='text-gray-900 font-bold'>iniciar tus horas de servicio social</strong> para conocer el procedimiento y la documentación formal requerida por la Facultad.",
+            "Para poder iniciar las horas sociales, debes de haber aprobado el <strong class='text-gray-900 font-bold'>60% de las materias</strong> de tu carrera.",
+            "Debes consultar con tu <strong class='text-gray-900 font-bold'>coordinador de carrera</strong> qué proyectos hay disponibles, quien te asignará un tutor y el proyecto para que puedas empezar las cartas de inscripción."
+        ],
+        datos: [
+            { icon: "fa-solid fa-file-invoice", text: "Formulario F-01 de inscripción de proyecto (Paso 4)" },
+            { icon: "fa-regular fa-user", text: "Datos personales (DUE, carrera, porcentaje de materias cursadas)" },
+            { icon: "fa-regular fa-building", text: "Datos de la institución receptora o comunidad donde realizarás el servicio" },
+            { icon: "fa-solid fa-chalkboard-user", text: "Datos del tutor o responsable del proyecto" },
+            { icon: "fa-solid fa-list-check", text: "Plan de trabajo y cronograma tentativo de actividades" }
+        ],
+        pasos: [
+            "Pide una **carta de constancia del 60% de materias pasadas** en Administración Académica.",
+            "Consulta con el coordinador de tu carrera qué proyectos hay o cuáles puedes hacer, e infórmale que estás interesado.",
+            "Espera a que el coordinador te asigne un tutor de proyecto y el proyecto oficial.",
+            "Una vez que tengas tutor y proyecto asignados, puedes comenzar a rellenar las cartas de solicitud correspondientes.",
+            "Descarga y completa la **Plantilla de Inscripción (Paso 4)** (F-01) en Word y recaba las firmas de tu tutor y coordinador."
+        ],
+        advertencias: [
+            "No inicies horas de servicio social sin antes estar formalmente inscrito. De lo contrario, las horas no te serán contabilizadas.",
+            "La constancia de materias del 60% debe ser solicitada formalmente en Administración Académica de la FMO."
+        ]
+    },
+    proc2: {
+        title: "Presentar Proyecto",
+        subtitle: "Paso 2: Registro en PROMETEO",
+        download: "procesos/2. DOCUMENTOS PARA PRESENTAR PROYECTOS DE SERVICIO SOCIAL.docx",
+        example: "procesos/2..pdf",
+        icon: `<i class="fa-solid fa-briefcase text-base"></i>`,
+        cuando: [
+            "Usa esta guía una vez recibida tu carta de asignación para formalizar tu propuesta de proyecto ante la Unidad de Proyección Social."
+        ],
+        datos: [
+            { icon: "fa-solid fa-signature", text: "Nombre oficial y justificado del proyecto" },
+            { icon: "fa-solid fa-bullseye", text: "Objetivos generales y específicos del proyecto" },
+            { icon: "fa-regular fa-calendar-days", text: "Fechas propuestas de inicio y finalización de actividades" },
+            { icon: "fa-solid fa-users", text: "Beneficiarios directos e indirectos del proyecto" },
+            { icon: "fa-regular fa-clipboard", text: "Metodología de ejecución y cronograma detallado" }
+        ],
+        pasos: [
+            "Después de haber recibido tu carta de asignación, tienes un plazo estricto de **15 días** después de haber recibido el correo para mandar el proyecto.",
+            "Elabora el proyecto técnico con la ayuda y guía directa de tu **tutor**.",
+            "Tu tutor debe brindarte revisiones y correcciones pertinentes para asegurar la calidad de la propuesta antes de presentarla.",
+            "Sube el proyecto corregido a la plataforma del sistema PROMETEO."
+        ],
+        advertencias: [
+            "¡No te pases de los 15 días! Presentar el proyecto tarde puede retrasar el proceso oficial de tus horas sociales.",
+            "El proyecto debe contar con el aval y revisiones completas de tu tutor de servicio social."
+        ]
+    },
+    proc3: {
+        title: "Presentar Memoria",
+        subtitle: "Paso 3: Reporte de finalización",
+        download: "procesos/3. DOCUMENTO PARA PRESENTAR LA MEMORIA DE SERVICIO SOCIAL.docx",
+        example: "procesos/3..pdf",
+        icon: `<i class="fa-solid fa-book text-base"></i>`,
+        cuando: [
+            "Usa esta guía al finalizar la ejecución de tus horas para preparar y entregar tu reporte final o memoria de servicio social."
+        ],
+        datos: [
+            { icon: "fa-solid fa-book-open", text: "Estructura detallada del informe (portada, índice, resumen ejecutivo)" },
+            { icon: "fa-solid fa-chart-line", text: "Resultados obtenidos versus los objetivos iniciales" },
+            { icon: "fa-regular fa-images", text: "Evidencia fotográfica y documental de las actividades realizadas" },
+            { icon: "fa-solid fa-clock", text: "Control de horas acumuladas firmado por tu tutor" },
+            { icon: "fa-regular fa-comments", text: "Conclusiones, recomendaciones y firmas de validación" }
+        ],
+        pasos: [
+            "Después de haber terminado tus horas sociales, debes de preparar y presentar tu **Memoria Final**.",
+            "Toma en cuenta que todo el proceso de servicio social no puede pasarse de un límite absoluto de **18 meses** después de haber sido oficialmente inscrito en el sistema.",
+            "Cuentas con un plazo máximo de únicamente **3 meses** tras haber finalizado las actividades para poder presentar la memoria.",
+            "Si te pasas de ese tiempo de 3 meses, deberás presentar documentos formales adicionales que justifiquen plenamente los motivos del retraso."
+        ],
+        advertencias: [
+            "El límite máximo de todo tu servicio social es de **18 meses** desde tu inscripción oficial. Lleva un control estricto del tiempo.",
+            "Presentar la memoria más de 3 meses después de terminar tus horas requiere un trámite justificativo adicional."
+        ]
+    },
+    proc4: {
+        title: "Plantilla de Inscripción",
+        subtitle: "Formulario F-01 (Rama de Paso 1)",
+        download: "procesos/proceso_inscripcion.docx",
+        example: "",
+        icon: `<i class="fa-solid fa-file-invoice text-base"></i>`,
+        cuando: [
+            "Esta plantilla es el <strong class='text-gray-900 font-bold'>formulario oficial F-01</strong> rellenable en Microsoft Word.",
+            "Representa una rama práctica del **Paso 1: Inscripción** para el llenado y presentación oficial."
+        ],
+        datos: [
+            { icon: "fa-regular fa-id-card", text: "Tus datos personales oficiales (Nombre completo, DUE, carrera)" },
+            { icon: "fa-solid fa-building-user", text: "Datos exactos de la entidad receptora externa o interna" },
+            { icon: "fa-regular fa-clock", text: "Carga total de horas asignada a cumplir en el proyecto" },
+            { icon: "fa-solid fa-signature", text: "Líneas de firma para ti, tu tutor, y las autoridades de proyección social" }
+        ],
+        pasos: [
+            "Descarga esta Plantilla de Inscripción (Word).",
+            "Completa todos tus datos personales, DUE y carrera.",
+            "Agrega los datos del proyecto y del tutor que te asignó el coordinador en el Paso 1.",
+            "Recaba las firmas y sellos oficiales requeridos en tinta azul.",
+            "Entrega la plantilla F-01 para oficializar tu expediente."
+        ],
+        advertencias: [
+            "Este documento es indispensable para abrir tu expediente oficial de horas.",
+            "Asegúrate de que los datos del tutor y del proyecto asignado coincidan exactamente con la información del Paso 1."
         ]
     }
 };
@@ -241,9 +352,34 @@ function openModal(id) {
     document.getElementById('modal-download').href = doc.download;
 
     const exampleBtn = document.getElementById('modal-example');
+    const downloadBtn = document.getElementById('modal-download');
+
     if (exampleBtn) {
         exampleBtn.href = doc.example || '#';
         exampleBtn.style.display = doc.example ? 'flex' : 'none';
+    }
+
+    // Cambiar dinámicamente las etiquetas y estilos de los botones en el modal según el contexto
+    if (id.startsWith('proc')) {
+        if (id === 'proc4') {
+            if (downloadBtn) {
+                downloadBtn.innerHTML = `<i class="fa-solid fa-download mr-1.5"></i>Descargar Plantilla`;
+            }
+        } else {
+            if (exampleBtn) {
+                exampleBtn.innerHTML = `<i class="fa-solid fa-eye mr-1.5"></i>Ver Guía (PDF)`;
+            }
+            if (downloadBtn) {
+                downloadBtn.innerHTML = `<i class="fa-solid fa-download mr-1.5"></i>Descargar Guía (Word)`;
+            }
+        }
+    } else {
+        if (exampleBtn) {
+            exampleBtn.innerHTML = `<i class="fa-solid fa-eye mr-1.5"></i>Ver ejemplo`;
+        }
+        if (downloadBtn) {
+            downloadBtn.innerHTML = `<i class="fa-solid fa-download mr-1.5"></i>Descargar plantilla`;
+        }
     }
 
     document.getElementById('content-cuando').innerHTML = doc.cuando.map(item =>
@@ -285,6 +421,15 @@ function switchTab(name) {
     document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
     document.getElementById('tab-' + name).classList.add('active');
     document.getElementById('content-' + name).classList.add('active');
+}
+
+// Lógica de navegación principal por pestañas
+function setActiveTab(name) {
+    document.querySelectorAll('.main-tab-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.main-tab-content').forEach(content => content.classList.remove('active'));
+    
+    document.getElementById('main-tab-' + name).classList.add('active');
+    document.getElementById('content-section-' + name).classList.add('active');
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
