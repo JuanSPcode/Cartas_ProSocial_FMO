@@ -423,13 +423,34 @@ function switchTab(name) {
     document.getElementById('content-' + name).classList.add('active');
 }
 
-// Lógica de navegación principal por pestañas
+// Lógica de navegación principal por pestañas (Hash Routing)
 function setActiveTab(name) {
+    window.location.hash = name;
+}
+
+function handleHashRoute() {
+    let hash = window.location.hash.substring(1); // Quitar el '#'
+    if (hash !== 'cartas' && hash !== 'procesos') {
+        hash = 'procesos'; // Pestaña predeterminada
+    }
+    
+    // Quitar active de todos los botones y secciones
     document.querySelectorAll('.main-tab-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelectorAll('.main-tab-content').forEach(content => content.classList.remove('active'));
     
-    document.getElementById('main-tab-' + name).classList.add('active');
-    document.getElementById('content-section-' + name).classList.add('active');
+    // Activar el botón y la sección correspondiente
+    const activeBtn = document.getElementById('main-tab-' + hash);
+    const activeContent = document.getElementById('content-section-' + hash);
+    if (activeBtn) activeBtn.classList.add('active');
+    if (activeContent) activeContent.classList.add('active');
 }
+
+// Escuchar cambios de hash en la URL
+window.addEventListener('hashchange', handleHashRoute);
+
+// Ejecutar al cargar la página para mantener la pestaña activa
+document.addEventListener('DOMContentLoaded', handleHashRoute);
+// Ejecución inmediata por si el evento DOMContentLoaded ya ocurrió
+handleHashRoute();
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
