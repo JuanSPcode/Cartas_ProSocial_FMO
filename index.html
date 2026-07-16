@@ -354,7 +354,7 @@
         <div id="content-section-procesos" class="main-tab-content active">
             <section id="procesos-documentos" class="mb-10">
                 <p class="mb-4 text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500">Pasos y documentos
-                    requeridos</p>
+                    requeridos alumnos</p>
                 <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
 
                     <!-- Proc 1: Paso 1 - Inscripción de Proyectos -->
@@ -476,6 +476,53 @@
                                     <i class="fa-solid fa-download"></i> Descargar Plantilla
                                 </a>
                             </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="procesos-docentes" class="mb-10">
+                <p class="mb-4 text-[11px] font-semibold uppercase tracking-[0.1em] text-gray-500">Documentos Docentes</p>
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+
+                    <!-- Proc Doc 1: 1 - Inscripcion Docente -->
+                    <div
+                        class="group flex h-full flex-col rounded-2xl border border-gray-200 bg-white p-4 transition-all duration-300 hover:border-red-500 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(220,38,38,0.15)]">
+                        <button onclick="openModal('proc_doc1')" class="flex items-start gap-3.5 text-left w-full mb-3">
+                            <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red-50">
+                                <i class="fa-solid fa-chalkboard-user text-red-600 text-base"></i>
+                            </div>
+                            <div>
+                                <div class="text-sm font-medium text-gray-800">1 - Inscripcion Docente</div>
+                                <div class="mt-0.5 text-xs text-gray-500">Paso 1: Inicio del servicio social docente</div>
+                            </div>
+                        </button>
+                        <div class="mt-auto flex flex-col gap-3 border-t border-gray-200 pt-3">
+                            <button onclick="openModal('proc_doc1')"
+                                class="text-xs text-gray-500 hover:text-red-600 transition-colors flex items-center gap-1.5 w-fit">
+                                <i class="fa-regular fa-circle-question text-xs"></i>
+                                Ver instrucciones
+                            </button>
+                            <div class="flex gap-2">
+                                <a href="procesos/FORMATO INSCRIPCION PROYECTO DOCENTES.pdf" target="_blank" rel="noopener noreferrer"
+                                    class="flex-1 flex items-center justify-center gap-2 rounded-lg bg-red-50 border border-red-200 px-2 py-2 text-[10px] sm:text-[11px] font-medium text-red-600 hover:bg-red-100 transition-colors text-center leading-tight">
+                                    <i class="fa-solid fa-eye"></i> Ver PDF
+                                </a>
+                                <a href="procesos/FORMATO INSCRIPCION PROYECTO DOCENTES.docx" download
+                                    class="flex-1 flex items-center justify-center gap-2 rounded-lg bg-blue-50 border border-blue-200 px-2 py-2 text-[10px] sm:text-[11px] font-medium text-blue-600 hover:bg-blue-100 transition-colors text-center leading-tight">
+                                    <i class="fa-solid fa-download"></i> Descargar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Div con el mismo tamaño que los demas (marcador de posicion / placeholder) -->
+                    <div
+                        class="flex h-full flex-col rounded-2xl border border-dashed border-gray-200 bg-gray-50/50 p-4 items-center justify-center min-h-[162px]">
+                        <div class="text-center">
+                            <i class="fa-solid fa-folder-plus text-gray-300 text-2xl mb-2 block"></i>
+                            <span class="text-xs text-gray-400 font-medium">Próximos documentos docentes</span>
                         </div>
                     </div>
 

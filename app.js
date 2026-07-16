@@ -341,6 +341,36 @@ const docs = {
             "Este documento es indispensable para abrir tu expediente oficial de horas.",
             "Asegúrate de que los datos del tutor y del proyecto asignado coincidan exactamente con la información del Paso 1."
         ]
+    },
+    proc_doc1: {
+        title: "1 - Inscripción Docente",
+        subtitle: "Inscripción de proyectos de proyección social sector académico",
+        download: "procesos/FORMATO INSCRIPCION PROYECTO DOCENTES.docx",
+        example: "procesos/FORMATO INSCRIPCION PROYECTO DOCENTES.pdf",
+        icon: `<i class="fa-solid fa-chalkboard-user text-base"></i>`,
+        cuando: [
+            "Usa esta guía al <strong class='text-gray-900 font-bold'>iniciar las horas de servicio social docente</strong> para conocer el procedimiento y la documentación formal requerida por la Facultad.",
+            "Aplica para proyectos de proyección social presentados por docentes de cualquier Departamento o Sección Académica."
+        ],
+        datos: [
+            { icon: "fa-regular fa-file-lines", text: "Carta No. 1: Solicitud de Inscripción de Proyecto" },
+            { icon: "fa-regular fa-file-lines", text: "Carta No. 2: Constancia de aprobación del Plan de Trabajo" },
+            { icon: "fa-regular fa-user", text: "Nombre completo, firma y teléfono de los docentes del Departamento/Sección" },
+            { icon: "fa-regular fa-calendar-days", text: "Lugar de ejecución, ciclo, fecha de inicio y finalización del proyecto" },
+            { icon: "fa-solid fa-signature", text: "Firma y sello del Jefe de Departamento y de la Subcoordinación de Proyección Social" }
+        ],
+        pasos: [
+            "Descarga el archivo de inscripción (Word) que contiene ambas cartas.",
+            "Completa la Carta No. 1 con el nombre del proyecto, departamento, sección, lugar de ejecución, ciclo, fechas de inicio y finalización, y firmas de los docentes.",
+            "Completa la Carta No. 2 (Constancia de Aprobación) con los detalles técnicos como costos, financiamiento y horas estimadas.",
+            "Recaba las firmas y sellos en original con tinta de color azul (Jefe de Departamento, Subcoordinador de Proyección Social y docentes).",
+            "Presenta físicamente la Carta 1 y Carta 2 en la Unidad de Proyección Social de la Facultad para su registro en el sistema PROMETEO.",
+            "Una vez realizada la inscripción, se enviará el Registro de Inscripción certificado por el Jefe de la Unidad al Coordinador de la Sub-Unidad."
+        ],
+        advertencias: [
+            "No se procederá a la inscripción del proyecto si no se presenta <strong class='text-red-500 font-semibold'>toda la documentación</strong> firmada y sellada en original.",
+            "Es obligatorio presentar las cartas impresas y debidamente firmadas con <strong class='text-red-500 font-semibold'>tinta de color azul</strong>."
+        ]
     }
 };
 
